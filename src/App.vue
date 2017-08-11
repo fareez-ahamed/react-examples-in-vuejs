@@ -1,9 +1,21 @@
 <template>
   <div class="container">
-    <hello name="Ahamed"></hello>
-    <timer></timer>
-    <todo-app></todo-app>
-    <markdown-editor></markdown-editor>
+    <section class="section">
+      <h1 class="title">Hello World</h1>
+      <hello name="Ahamed"></hello>
+    </section>
+    <section class="section">
+      <h1 class="title">Timer</h1>
+      <timer></timer>
+    </section>
+    <section class="section">
+      <h1 class="title">Todo App</h1>
+      <todo-app></todo-app>
+    </section>
+    <section class="section">
+      <h1 class="title">Markdown Editor</h1>
+      <markdown-editor></markdown-editor>
+    </section>
   </div>
 </template>
 
